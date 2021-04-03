@@ -22,7 +22,7 @@
   As presented in the above image, the refactored code ran in slightly over a quarter of a second.  This is thirty hundredths of a second faster than the unfactored code.  This was accomplished by creating an index for the array and setting it to zero.  Then, the iterator could run through each of the 12 indexes only once.  
   The critical part of the code is presented below:
   
-![Critical_part_of_code](Critical_part_of_code.png)
+![Critical_part_of_code](Critical_part_ of_code.png)
 
 ## Summary
 
