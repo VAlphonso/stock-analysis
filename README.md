@@ -3,7 +3,8 @@
 ## Overview of Project
 
   Steve, my client, would like to analyze an entire dataset of stocks to recommend to his parents. He would like to give them a diverse portfolio that has proven success and stock that shows gains.  
-	To do this, I will run code using Microsoft Visual Basics in Excel.  I will analysis stocks for 12 companies over two years and refactor the code to create a code that runs fast and is easy to execute.  
+  
+  To do this, I will run code using Microsoft Visual Basics in Excel.  I will analysis stocks for 12 companies over two years and refactor the code to create a code that runs fast and is easy to execute.  
 
 ## Results
 
