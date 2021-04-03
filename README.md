@@ -2,7 +2,7 @@
 
    Steve, my client, would like to analyze an entire dataset of stocks to recommend to his parents. He would like to give them a diverse portfolio that has proven success and stock that been having gains.  
    To do this, I will run code using Microsoft Visual Basics in Excel.  I will analysis stocks for 12 companies over two years and refactor the code to create a code that runs fast and is easy to execute.  
-
+   
 ##Results
 
    I created a spreadsheet with stock information from 12 companies.  I found the total daily volume and yearly return for each stock.  The daily volume measures how active the stock is traded; and the yearly return is a percentage of the difference in price from the beginning of the year to the end of the year.  Using VBA, the worksheet has a user defined input when the script is executed.  The output is color coded and clearly gives the successful stocks in green while the stocks that lost ground in red.  My first attempt executing this analysis for the 2017 and 2018 year yielded the following results, respectively:
@@ -19,6 +19,7 @@
 
    As presented in the above image, the refactored code run in slightly over a quarter of a second.  This is thirty hundredths of a second faster than the unfactored code.  This was accomplished by creating an index for the array and setting it to zero.  Then, the iterator could run through each of the 12 indexes only once.  
    The critical part of the code is presented below:
+
 ![Critical_part_of_code](Critical_part_of_code.png)
 
 ##Summary 
